@@ -1,1 +1,1 @@
-# SAMI 안정성 평가 Repository
+# SAMI 성능 평가 Repository
