@@ -1,6 +1,6 @@
 import json
 
-input_dataset = input("Q데이터셋을 추출하고자하는 파일명을 입력해주세요(.json 제외): ")
+input_dataset = input("데이터셋을 추출하고자하는 파일명을 입력해주세요(.json 제외): ")
 
 dataset = input_dataset + ".json"
 
