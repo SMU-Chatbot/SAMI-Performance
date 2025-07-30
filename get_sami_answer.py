@@ -3,6 +3,7 @@ import requests
 from tqdm import tqdm
 import time
 from pathlib import Path
+import tiktoken
 
 WORK_DIR = Path(__file__).parent
 
@@ -18,12 +19,16 @@ dataset = input_dataset + ".json"
 with open(Q_DATASET_DIR/dataset, "r", encoding="utf-8") as f:
     questions = json.load(f)
 
+encoding = tiktoken.encoding_for_model("gpt-4o-mini")
+
 results = []
 
 for item in tqdm(questions):
     question = item["question"]
 
     try:
+        start_time = time.time()
+
         response = requests.post(
             "http://localhost:8000/ask",
             json={"question": question},
@@ -31,16 +36,23 @@ for item in tqdm(questions):
         )
         response.raise_for_status()
 
+        elapsed_time = time.time() - start_time
         answer = response.json().get("answer", "")
+
+        num_tokens = len(encoding.encode(answer))
 
         results.append({
             "answer": answer,
+            "response_time_sec": round(elapsed_time, 2),
+            "token_amount": num_tokens
         })
 
     except Exception as e:
         print(f"[오류] 질문: {question} / 오류: {e}")
         results.append({
             "answer": f"ERROR: {e}",
+            "response_time_sec": 0,
+            "token_amount": 0
         })
 
     time.sleep(0.3)
