@@ -2,21 +2,16 @@ import json
 import requests
 from tqdm import tqdm
 import time
-from pathlib import Path
 import tiktoken
+from config.path import get_project_paths
 
-WORK_DIR = Path(__file__).parent
-
-DATA_DIR = WORK_DIR / "data"
-OUTPUT_DIR = WORK_DIR / "output"
-Q_DATASET_DIR = OUTPUT_DIR / "q_dataset"
-A_DATASET_DIR = OUTPUT_DIR / "a_dataset"
+paths = get_project_paths()
 
 input_dataset = input("Q데이터셋 입력(.json 제외): ")
 
 dataset = input_dataset + ".json"
 
-with open(Q_DATASET_DIR/dataset, "r", encoding="utf-8") as f:
+with open(paths["Q_DATASET_DIR"]/dataset, "r", encoding="utf-8") as f:
     questions = json.load(f)
 
 encoding = tiktoken.encoding_for_model("gpt-4o-mini")
@@ -61,5 +56,5 @@ result = "sami_" + input_dataset.split("_q_dataset")[0] + "_a_dataset.json"
 
 print(result)
 
-with open(A_DATASET_DIR/result, "w", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/result, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)

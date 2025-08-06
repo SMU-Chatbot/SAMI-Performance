@@ -1,15 +1,8 @@
 import json
 from sentence_transformers import SentenceTransformer, util
-from pathlib import Path
+from config.path import get_project_paths
 
-WORK_DIR = Path(__file__).parent
-
-DATA_DIR = WORK_DIR / "data"
-OUTPUT_DIR = WORK_DIR / "output"
-Q_DATASET_DIR = OUTPUT_DIR / "q_dataset"
-A_DATASET_DIR = OUTPUT_DIR / "a_dataset"
-SIMILARITY_DIR = OUTPUT_DIR / "similarity"
-SBERT_DIR = SIMILARITY_DIR / "SBERT"
+paths = get_project_paths()
 
 model = SentenceTransformer('jhgan/ko-sbert-sts')
 
@@ -19,10 +12,10 @@ input_answer_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제�
 ground_truth_dataset = input_ground_truth_data + ".json"
 answer_dataset = input_answer_data + ".json"
 
-with open(A_DATASET_DIR/ground_truth_dataset, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/ground_truth_dataset, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
-with open(A_DATASET_DIR/answer_dataset, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/answer_dataset, "r", encoding="utf-8") as f:
     answers = json.load(f)
 
 results = []
@@ -46,5 +39,5 @@ for ref_item, ans_item in zip(ground_truth, answers):
 
 result = input_ground_truth_data.split("_a")[0] + "_SBERT_results.json"
 
-with open(SBERT_DIR/result, "w", encoding="utf-8") as f:
+with open(paths["SBERT_DIR"]/result, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)

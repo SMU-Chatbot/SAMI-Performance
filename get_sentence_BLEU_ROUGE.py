@@ -1,16 +1,9 @@
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 import json
-from pathlib import Path
+from config.path import get_project_paths
 
-WORK_DIR = Path(__file__).parent
-
-DATA_DIR = WORK_DIR / "data"
-OUTPUT_DIR = WORK_DIR / "output"
-Q_DATASET_DIR = OUTPUT_DIR / "q_dataset"
-A_DATASET_DIR = OUTPUT_DIR / "a_dataset"
-SIMILARITY_DIR = OUTPUT_DIR / "similarity"
-BLEU_ROUGE_DIR = SIMILARITY_DIR / "BLEU_ROUGE"
+paths = get_project_paths()
 
 input_ref_data = input("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
 input_candidates_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
@@ -19,10 +12,10 @@ ref_data = input_ref_data + ".json"
 candidates_data = input_candidates_data + ".json"
 
 # 1. 데이터 불러오기
-with open(A_DATASET_DIR/ref_data, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/ref_data, "r", encoding="utf-8") as f:
     references = json.load(f)
 
-with open(A_DATASET_DIR/candidates_data, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/candidates_data, "r", encoding="utf-8") as f:
     candidates = json.load(f)
 
 # 2. BLEU와 ROUGE 점수 저장
@@ -61,5 +54,5 @@ for ref_item, gen_item in zip(references, candidates):
 result = input_ref_data.split("_a")[0] + "bleu_rouge_results.json"
 
 # 3. 결과 저장
-with open(BLEU_ROUGE_DIR/result, "w", encoding="utf-8") as f:
+with open(paths["BLEU_ROUGE_DIR"]/result, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)

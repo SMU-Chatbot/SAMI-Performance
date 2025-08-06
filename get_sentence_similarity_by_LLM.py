@@ -1,17 +1,12 @@
 import os
 from openai import OpenAI
-from pathlib import Path
 import json
 from dotenv import load_dotenv
 from tqdm import tqdm
 
-WORK_DIR = Path(__file__).parent
+from config.path import get_project_paths
 
-DATA_DIR = WORK_DIR / "data"
-OUTPUT_DIR = WORK_DIR / "output"
-Q_DATASET_DIR = OUTPUT_DIR / "q_dataset"
-A_DATASET_DIR = OUTPUT_DIR / "a_dataset"
-SIMILARITY_DIR = OUTPUT_DIR / "similarity"
+paths = get_project_paths()
 
 load_dotenv()
 api_key = os.getenv("OPEN_API_KEY")
@@ -24,10 +19,10 @@ input_answer_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제�
 ground_truth_dataset = input_ground_truth_data + ".json"
 answer_dataset = input_answer_data + ".json"
 
-with open(A_DATASET_DIR/ground_truth_dataset, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/ground_truth_dataset, "r", encoding="utf-8") as f:
     ground_truth = json.load(f)
 
-with open(A_DATASET_DIR/answer_dataset, "r", encoding="utf-8") as f:
+with open(paths["A_DATASET_DIR"]/answer_dataset, "r", encoding="utf-8") as f:
     answers = json.load(f)
 
 results = []
@@ -58,5 +53,5 @@ for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_trut
 
 result = input_ground_truth_data.split("_a")[0] + "_LLM_results.json"
 
-with open(SIMILARITY_DIR/result, "w", encoding="utf-8") as f:
+with open(paths["LLM_DIR"]/result, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
