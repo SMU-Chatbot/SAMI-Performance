@@ -2,6 +2,7 @@ from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 import json
 from config.path import get_project_paths
+from tqdm import tqdm
 
 paths = get_project_paths()
 
@@ -24,7 +25,8 @@ results = []
 scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=False)
 smooth_fn = SmoothingFunction().method1
 
-for ref_item, gen_item in zip(references, candidates):
+# in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="문장 유사도 평가 중"):
+for ref_item, gen_item in tqdm(zip(references, candidates), total=len(references) ,desc="BLEU_ROUGE 기반 문장 유사도 평가 중"):
     ref = ref_item["answer"]
     cand = gen_item["answer"]
 
@@ -45,11 +47,6 @@ for ref_item, gen_item in zip(references, candidates):
         "ROUGE-2": round(rouge_2, 4),
         "ROUGE-L": round(rouge_l, 4)
     })
-
-    print(f"bleu: {bleu:.4f}")
-    print(f"ROUGE-1: {rouge_1:.4f}")
-    print(f"ROUGE-2: {rouge_2:.4f}")
-    print(f"ROUGE-L: {rouge_l:.4f}")
 
 result = input_ref_data.split("_a")[0] + "bleu_rouge_results.json"
 

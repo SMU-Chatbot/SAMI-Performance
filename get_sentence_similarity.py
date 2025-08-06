@@ -1,6 +1,7 @@
 import json
 from sentence_transformers import SentenceTransformer, util
 from config.path import get_project_paths
+from tqdm import tqdm
 
 paths = get_project_paths()
 
@@ -23,7 +24,7 @@ results = []
 # ref = "상명대학교는 종로구에 있어요."
 # ans = "상명대는 서울 종로구에 위치합니다."
 
-for ref_item, ans_item in zip(ground_truth, answers):
+for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="SBERT 기반 문장 유사도 평가 중"):
     ref = ref_item.get("answer", "")
     ans = ans_item.get("answer", "")
 
@@ -35,7 +36,6 @@ for ref_item, ans_item in zip(ground_truth, answers):
         "answer": ans,
         "similarity": round(score, 4)
     })
-    print(f"유사도 점수: {score:.4f}")
 
 result = input_ground_truth_data.split("_a")[0] + "_SBERT_results.json"
 

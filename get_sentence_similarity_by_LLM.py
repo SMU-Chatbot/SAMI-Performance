@@ -30,7 +30,7 @@ results = []
 with open("similarity_prompt.txt", "r", encoding="utf-8") as f:
     system_prompt = f.read()
 
-for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="문장 유사도 평가 중"):
+for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="LLM 기반 문장 유사도 평가 중"):
     ref = ref_item.get("answer", "")
     ans = ans_item.get("answer", "")
 
