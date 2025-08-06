@@ -1,18 +1,16 @@
-import json
 import requests
 from tqdm import tqdm
 import time
 import tiktoken
 from config.path import get_project_paths
+from utils.io_utils import save_json, load_json
+from utils.input_utils import *
 
 paths = get_project_paths()
 
-input_dataset = input("Q데이터셋 입력(.json 제외): ")
+dataset = get_filename("Q데이터셋 입력(.json 제외): ")
 
-dataset = input_dataset + ".json"
-
-with open(paths["Q_DATASET_DIR"]/dataset, "r", encoding="utf-8") as f:
-    questions = json.load(f)
+questions = load_json(paths["Q_DATASET_DIR"]/dataset)
 
 encoding = tiktoken.encoding_for_model("gpt-4o-mini")
 
@@ -52,9 +50,8 @@ for item in tqdm(questions):
 
     time.sleep(0.3)
 
-result = "sami_" + input_dataset.split("_q_dataset")[0] + "_a_dataset.json"
+result = make_sami_a_dataset_name(dataset)
 
 print(result)
 
-with open(paths["A_DATASET_DIR"]/result, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+save_json(paths["A_DATASET_DIR"]/result, results)

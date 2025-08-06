@@ -2,27 +2,20 @@ import json
 from sentence_transformers import SentenceTransformer, util
 from config.path import get_project_paths
 from tqdm import tqdm
+from utils.io_utils import save_json, load_json
+from utils.input_utils import *
 
 paths = get_project_paths()
 
 model = SentenceTransformer('jhgan/ko-sbert-sts')
 
-input_ground_truth_data = input("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
-input_answer_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
+ground_truth_data = get_filename("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
+answer_data = get_filename("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
 
-ground_truth_dataset = input_ground_truth_data + ".json"
-answer_dataset = input_answer_data + ".json"
-
-with open(paths["A_DATASET_DIR"]/ground_truth_dataset, "r", encoding="utf-8") as f:
-    ground_truth = json.load(f)
-
-with open(paths["A_DATASET_DIR"]/answer_dataset, "r", encoding="utf-8") as f:
-    answers = json.load(f)
+ground_truth = load_json(paths["A_DATASET_DIR"]/ground_truth_data)
+answers = load_json(paths["A_DATASET_DIR"]/answer_data)
 
 results = []
-
-# ref = "상명대학교는 종로구에 있어요."
-# ans = "상명대는 서울 종로구에 위치합니다."
 
 for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="SBERT 기반 문장 유사도 평가 중"):
     ref = ref_item.get("answer", "")
@@ -37,7 +30,6 @@ for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_trut
         "similarity": round(score, 4)
     })
 
-result = input_ground_truth_data.split("_a")[0] + "_SBERT_results.json"
+result = make_sbert_results_name(ground_truth_data)
 
-with open(paths["SBERT_DIR"]/result, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+save_json(paths["SBERT_DIR"]/result, results)

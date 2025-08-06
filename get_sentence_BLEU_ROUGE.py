@@ -3,21 +3,17 @@ from rouge_score import rouge_scorer
 import json
 from config.path import get_project_paths
 from tqdm import tqdm
+from utils.io_utils import save_json, load_json
+from utils.input_utils import *
 
 paths = get_project_paths()
 
-input_ref_data = input("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
-input_candidates_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
-
-ref_data = input_ref_data + ".json"
-candidates_data = input_candidates_data + ".json"
+ref_data = get_filename("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
+candidates_data = get_filename("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
 
 # 1. 데이터 불러오기
-with open(paths["A_DATASET_DIR"]/ref_data, "r", encoding="utf-8") as f:
-    references = json.load(f)
-
-with open(paths["A_DATASET_DIR"]/candidates_data, "r", encoding="utf-8") as f:
-    candidates = json.load(f)
+references = load_json(paths["A_DATASET_DIR"]/ref_data)
+candidates = load_json(paths["A_DATASET_DIR"]/candidates_data)
 
 # 2. BLEU와 ROUGE 점수 저장
 results = []
@@ -48,8 +44,7 @@ for ref_item, gen_item in tqdm(zip(references, candidates), total=len(references
         "ROUGE-L": round(rouge_l, 4)
     })
 
-result = input_ref_data.split("_a")[0] + "bleu_rouge_results.json"
+result = make_bleu_rouge_results_name(ref_data)
 
 # 3. 결과 저장
-with open(paths["BLEU_ROUGE_DIR"]/result, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+save_json(paths["BLEU_ROUGE_DIR"]/result, results)
