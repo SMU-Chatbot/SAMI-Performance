@@ -1,29 +1,19 @@
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
 import json
-from pathlib import Path
+from config.path import get_project_paths
+from tqdm import tqdm
+from utils.io_utils import save_json, load_json
+from utils.input_utils import *
 
-WORK_DIR = Path(__file__).parent
+paths = get_project_paths()
 
-DATA_DIR = WORK_DIR / "data"
-OUTPUT_DIR = WORK_DIR / "output"
-Q_DATASET_DIR = OUTPUT_DIR / "q_dataset"
-A_DATASET_DIR = OUTPUT_DIR / "a_dataset"
-SIMILARITY_DIR = OUTPUT_DIR / "similarity"
-BLEU_ROUGE_DIR = SIMILARITY_DIR / "BLEU_ROUGE"
-
-input_ref_data = input("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
-input_candidates_data = input("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
-
-ref_data = input_ref_data + ".json"
-candidates_data = input_candidates_data + ".json"
+ref_data = get_filename("QnA의 A 데이터셋을 입력하세요(.json 제외, 예시: student_a_dataset): ")
+candidates_data = get_filename("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
 
 # 1. 데이터 불러오기
-with open(A_DATASET_DIR/ref_data, "r", encoding="utf-8") as f:
-    references = json.load(f)
-
-with open(A_DATASET_DIR/candidates_data, "r", encoding="utf-8") as f:
-    candidates = json.load(f)
+references = load_json(paths["A_DATASET_DIR"]/ref_data)
+candidates = load_json(paths["A_DATASET_DIR"]/candidates_data)
 
 # 2. BLEU와 ROUGE 점수 저장
 results = []
@@ -31,7 +21,8 @@ results = []
 scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=False)
 smooth_fn = SmoothingFunction().method1
 
-for ref_item, gen_item in zip(references, candidates):
+# in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="문장 유사도 평가 중"):
+for ref_item, gen_item in tqdm(zip(references, candidates), total=len(references) ,desc="BLEU_ROUGE 기반 문장 유사도 평가 중"):
     ref = ref_item["answer"]
     cand = gen_item["answer"]
 
@@ -53,13 +44,7 @@ for ref_item, gen_item in zip(references, candidates):
         "ROUGE-L": round(rouge_l, 4)
     })
 
-    print(f"bleu: {bleu:.4f}")
-    print(f"ROUGE-1: {rouge_1:.4f}")
-    print(f"ROUGE-2: {rouge_2:.4f}")
-    print(f"ROUGE-L: {rouge_l:.4f}")
-
-result = input_ref_data.split("_a")[0] + "bleu_rouge_results.json"
+result = make_bleu_rouge_results_name(ref_data)
 
 # 3. 결과 저장
-with open(BLEU_ROUGE_DIR/result, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
+save_json(paths["BLEU_ROUGE_DIR"]/result, results)
