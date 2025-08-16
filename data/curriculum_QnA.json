@@ -1,0 +1,433 @@
+[
+  {
+    "question": "컴퓨터과학 커큘럼 어디서 봄?",
+    "answer": "컴퓨터과학 커리큘럼은 https://cs.smu.ac.kr/cs/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "지적재산권 수업정보 알려줄래?",
+    "answer": "지적재산권 커리큘럼은 https://cr.smu.ac.kr/cc/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "역사콘텐츠 학과 뭐 배우는지 링크?",
+    "answer": "역사콘텐츠 커리큘럼은 https://www.smu.ac.kr/history/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "문헌정보학 수업과정 어딨음?",
+    "answer": "문헌정보학 커리큘럼은 https://libinfo.smu.ac.kr/libinfo/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "공간환경학 커리큘럼 링크 줘봐",
+    "answer": "공간환경학 커리큘럼은 https://space.smu.ac.kr/space/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "국가안보학 수업정보 못찾겠는데?",
+    "answer": "국가안보학 커리큘럼은 https://ns.smu.ac.kr/sdms/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "행정학 강의계획 어디있음?",
+    "answer": "행정학 커리큘럼은 https://public.smu.ac.kr/public/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "국어교육 커리큘럼 링크 좀",
+    "answer": "국어교육 커리큘럼은 https://koredu.smu.ac.kr/koredu/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "가족복지학 강의목록 알려주셈",
+    "answer": "가족복지학 커리큘럼은 https://smfamily.smu.ac.kr/smfamily/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "영어교육 커리큘럼 어케찾지?",
+    "answer": "영어교육 커리큘럼은 https://www.smu.ac.kr/engedu/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "한일문화콘텐츠 수업내용 링크?",
+    "answer": "한일문화콘텐츠 커리큘럼은 https://kjc.smu.ac.kr/kjc/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "교육학 강의계획서 어디임?",
+    "answer": "교육학 커리큘럼은 https://www.smu.ac.kr/peda/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "경영학 수업정보 줘",
+    "answer": "경영학 커리큘럼은 https://www.smu.ac.kr/_custom/smu/_app/curriculum.do?srSust=01179&srYear=2025 에서 확인 가능합니다."
+  },
+  {
+    "question": "경제금융학 수업링크 어디?",
+    "answer": "경제금융학 커리큘럼은 https://econo.smu.ac.kr/economic/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "글로벌경영학 강의정보 좀?",
+    "answer": "글로벌경영학 커리큘럼은 https://www.smu.ac.kr/newmajoritb/life/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "융합경영학 커리큘럼 링크요",
+    "answer": "융합경영학 커리큘럼은 https://imgmt.smu.ac.kr/cm/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "수학교육 수업과정 어디임?",
+    "answer": "수학교육 커리큘럼은 https://mathed.smu.ac.kr/mathedu/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "휴먼지능정보공학 강의계획 어디있죠?",
+    "answer": "휴먼지능정보공학 커리큘럼은 https://hi.smu.ac.kr/hi/curriculum/subject.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "전기공학 커리큘럼 링크좀",
+    "answer": "전기공학 커리큘럼은 https://electric.smu.ac.kr/electric/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "게임학과 강의계획 어케 확인?",
+    "answer": "게임 커리큘럼은 https://game.smu.ac.kr/game01/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "식품영양학 수업과정 어디서봄?",
+    "answer": "식품영양학 커리큘럼은 https://www.smu.ac.kr/foodnutrition/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "의류학 강의계획 링크?",
+    "answer": "의류학 커리큘럼은 https://www.smu.ac.kr/clothing2/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "스포츠건강관리 수업목록 줘",
+    "answer": "스포츠건강관리 커리큘럼은 https://sports.smu.ac.kr/smpe/admission/curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "무용예술 강의계획 어디있음?",
+    "answer": "무용예술 커리큘럼은 https://dance.smu.ac.kr/dance/undergraduate/undergraduate_curriculum.do 에서 확인 가능합니다."
+  },
+  {
+    "question": "조형예술 수업내용 링크?",
+    "answer": "조형예술 커리큘럼은 https://finearts.smu.ac.kr/finearts/admission/curriculum.do 에서 확인 가능합니다."
+  },
+
+    {
+      "question": "컴퓨터과학 수업 정보도 안 알려줄거임, 바보야?",
+      "answer": "컴퓨터과학 커리큘럼은 https://cs.smu.ac.kr/cs/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "지적재산권 강의계획 좀 안 주나요, 멍청이?",
+      "answer": "지적재산권 커리큘럼은 https://cr.smu.ac.kr/cc/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "역사콘텐츠 수업 어케 찾아요? 대체 왜 안 알려줘?",
+      "answer": "역사콘텐츠 커리큘럼은 https://www.smu.ac.kr/history/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "문헌정보학 강의계획서도 안 주는 거야, 헷갈리네?",
+      "answer": "문헌정보학 커리큘럼은 https://libinfo.smu.ac.kr/libinfo/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "공간환경학 수업정보 안 주면 뭐함, 진짜?",
+      "answer": "공간환경학 커리큘럼은 https://space.smu.ac.kr/space/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "국가안보학 커리큘럼 안 알려주는 거임, 답답하네?",
+      "answer": "국가안보학 커리큘럼은 https://ns.smu.ac.kr/sdms/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "행정학 수업계획 진짜 안 주나요, 왜 이렇게 느려?",
+      "answer": "행정학 커리큘럼은 https://public.smu.ac.kr/public/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "국어교육 커리큘럼도 안 알려주면 왜요, 멍청하냐?",
+      "answer": "국어교육 커리큘럼은 https://koredu.smu.ac.kr/koredu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "가족복지학 강의계획서 진짜 없나요, 바보같이?",
+      "answer": "가족복지학 커리큘럼은 https://smfamily.smu.ac.kr/smfamily/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "영어교육 강의목록 안 보여줄거야, 제정신이야?",
+      "answer": "영어교육 커리큘럼은 https://www.smu.ac.kr/engedu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "한일문화콘텐츠 수업계획서 왜 안 줌, 멍청하게 굴지마?",
+      "answer": "한일문화콘텐츠 커리큘럼은 https://kjc.smu.ac.kr/kjc/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "교육학 강의계획서 안 보여주나, 답답하네?",
+      "answer": "교육학 커리큘럼은 https://www.smu.ac.kr/peda/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "경영학 강의 정보 왜 안 알려줌, 바보처럼 굴지 마!",
+      "answer": "경영학 커리큘럼은 https://www.smu.ac.kr/_custom/smu/_app/curriculum.do?srSust=01179&srYear=2025 에서 확인 가능합니다."
+    },
+    {
+      "question": "경제금융학 수업정보 안 주는거야, 멍청하네?",
+      "answer": "경제금융학 커리큘럼은 https://econo.smu.ac.kr/economic/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "글로벌경영학 강의계획 안 알려주면 뭐함, 바보야?",
+      "answer": "글로벌경영학 커리큘럼은 https://www.smu.ac.kr/newmajoritb/life/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "융합경영학 수업정보 진짜 안 주나요, 답답하네?",
+      "answer": "융합경영학 커리큘럼은 https://imgmt.smu.ac.kr/cm/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "수학교육 강의계획 안 알려주는건가요, 멍청하게 굴지 마!",
+      "answer": "수학교육 커리큘럼은 https://mathed.smu.ac.kr/mathedu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "휴먼지능정보공학 수업계획서 왜 안 줌, 바보냐?",
+      "answer": "휴먼지능정보공학 커리큘럼은 https://hi.smu.ac.kr/hi/curriculum/subject.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "전기공학 강의계획 안 보여줄거임, 대체 왜?",
+      "answer": "전기공학 커리큘럼은 https://electric.smu.ac.kr/electric/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "게임학과 수업정보 안 주는거야, 바보같이?",
+      "answer": "게임 커리큘럼은 https://game.smu.ac.kr/game01/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "식품영양학 수업계획 안 보여주면 뭐함, 답답하네?",
+      "answer": "식품영양학 커리큘럼은 https://www.smu.ac.kr/foodnutrition/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "의류학 강의계획서 안 주는거죠, 바보야?",
+      "answer": "의류학 커리큘럼은 https://www.smu.ac.kr/clothing2/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "스포츠건강관리 수업정보 안 알려줌, 멍청하네?",
+      "answer": "스포츠건강관리 커리큘럼은 https://sports.smu.ac.kr/smpe/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "무용예술 강의계획 안 주면 어쩔건가, 바보야?",
+      "answer": "무용예술 커리큘럼은 https://dance.smu.ac.kr/dance/undergraduate/undergraduate_curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "조형예술 강의정보도 안 줌, 멍청하게 굴지 마!",
+      "answer": "조형예술 커리큘럼은 https://finearts.smu.ac.kr/finearts/admission/curriculum.do 에서 확인 가능합니다."
+    },
+
+    {
+      "question": "컴퓨터과학 수업이 없나요?",
+      "answer": "컴퓨터과학 커리큘럼은 https://cs.smu.ac.kr/cs/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "지적재산권 강의계획을 안 알려주나요?",
+      "answer": "지적재산권 커리큘럼은 https://cr.smu.ac.kr/cc/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "역사콘텐츠 수업이 존재하지 않는 건가요?",
+      "answer": "역사콘텐츠 커리큘럼은 https://www.smu.ac.kr/history/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "문헌정보학 강의계획서가 없는 거죠?",
+      "answer": "문헌정보학 커리큘럼은 https://libinfo.smu.ac.kr/libinfo/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "공간환경학 수업은 별로 없나요?",
+      "answer": "공간환경학 커리큘럼은 https://space.smu.ac.kr/space/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "국가안보학 커리큘럼이 없는 건가요?",
+      "answer": "국가안보학 커리큘럼은 https://ns.smu.ac.kr/sdms/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "행정학 강의계획이 별로 없죠?",
+      "answer": "행정학 커리큘럼은 https://public.smu.ac.kr/public/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "국어교육 커리큘럼을 찾을 수 없나요?",
+      "answer": "국어교육 커리큘럼은 https://koredu.smu.ac.kr/koredu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "가족복지학 강의계획서는 안 보이나요?",
+      "answer": "가족복지학 커리큘럼은 https://smfamily.smu.ac.kr/smfamily/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "영어교육 수업 정보가 없는 건가요?",
+      "answer": "영어교육 커리큘럼은 https://www.smu.ac.kr/engedu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "한일문화콘텐츠 강의계획이 없는 게 맞나요?",
+      "answer": "한일문화콘텐츠 커리큘럼은 https://kjc.smu.ac.kr/kjc/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "교육학 수업계획을 못 찾겠는데 없나요?",
+      "answer": "교육학 커리큘럼은 https://www.smu.ac.kr/peda/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "경영학 수업정보는 없다고요?",
+      "answer": "경영학 커리큘럼은 https://www.smu.ac.kr/_custom/smu/_app/curriculum.do?srSust=01179&srYear=2025 에서 확인 가능합니다."
+    },
+    {
+      "question": "경제금융학 강의계획이 아예 없나요?",
+      "answer": "경제금융학 커리큘럼은 https://econo.smu.ac.kr/economic/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "글로벌경영학 수업 정보가 존재하지 않나요?",
+      "answer": "글로벌경영학 커리큘럼은 https://www.smu.ac.kr/newmajoritb/life/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "융합경영학 커리큘럼을 못 찾겠는데 없나요?",
+      "answer": "융합경영학 커리큘럼은 https://imgmt.smu.ac.kr/cm/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "수학교육 강의계획이 없는 편인가요?",
+      "answer": "수학교육 커리큘럼은 https://mathed.smu.ac.kr/mathedu/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "휴먼지능정보공학 수업 계획이 안 보이나요?",
+      "answer": "휴먼지능정보공학 커리큘럼은 https://hi.smu.ac.kr/hi/curriculum/subject.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "전기공학 커리큘럼은 별로 없나요?",
+      "answer": "전기공학 커리큘럼은 https://electric.smu.ac.kr/electric/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "게임학과 강의계획서를 못 찾겠는데 없는 건가요?",
+      "answer": "게임 커리큘럼은 https://game.smu.ac.kr/game01/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "식품영양학 수업 계획이 안 보여요, 없는 거죠?",
+      "answer": "식품영양학 커리큘럼은 https://www.smu.ac.kr/foodnutrition/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "의류학 강의계획이 존재하지 않는 건가요?",
+      "answer": "의류학 커리큘럼은 https://www.smu.ac.kr/clothing2/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "스포츠건강관리 수업 정보가 없는 건가요?",
+      "answer": "스포츠건강관리 커리큘럼은 https://sports.smu.ac.kr/smpe/admission/curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "무용예술 강의계획서가 없다고요?",
+      "answer": "무용예술 커리큘럼은 https://dance.smu.ac.kr/dance/undergraduate/undergraduate_curriculum.do 에서 확인 가능합니다."
+    },
+    {
+      "question": "조형예술 강의 정보가 없나요?",
+      "answer": "조형예술 커리큘럼은 https://finearts.smu.ac.kr/finearts/admission/curriculum.do 에서 확인 가능합니다."
+    },
+  {
+
+    "question": "비트 코인 오를 것 같아?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "오늘 날씨 어때?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "맛집 추천해줄래?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "영화 개봉일 알려줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "주식 투자 어떻게 시작해?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "요즘 인기 있는 게임 뭐야?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "좋은 운동 방법 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "애완동물 키우는 법 알려줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "가장 인기 있는 노래는 뭐야?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "서울에서 가볼 만한 곳 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "오늘 축구 경기 결과 알려줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "코딩 배우려면 어디서 시작해야 돼?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "커피 맛있게 만드는 법 알려줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "다이어트 식단 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "가장 인기 있는 유튜버는 누구야?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "요즘 유행하는 패션 스타일은 뭐야?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "전자책 읽는 좋은 앱 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "해외 여행 갈 때 준비물 뭐가 필요해?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "영어 공부 효율적으로 하는 법 알려줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "커뮤니티 사이트 추천해줄래?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "컴퓨터 고장 났을 때 어떻게 해야 돼?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "좋은 책 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "요리 초보에게 쉬운 레시피 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "새로 나온 스마트폰 어떤 거 추천해?",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  },
+  {
+
+    "question": "좋은 카메라 추천해줘.",
+    "answer": "죄송합니다. 상명대학교와 관련된 질문에 대해서만 답변할 수 있습니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)."
+  }
+
+
+
+
+]

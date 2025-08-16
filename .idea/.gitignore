@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# 환경 변수 파일
+.env
+
+# 프롬프트 또는 개인 설정 파일
+similarity_prompt.txt
