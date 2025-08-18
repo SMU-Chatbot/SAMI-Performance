@@ -18,20 +18,34 @@ ground_truth_data = get_filename("QnA의 A 데이터셋을 입력하세요(.json
 answer_data = get_filename("SAMI의 A 데이터셋을 입력하세요(.json 제외, 예시: sami_student_a_dataset): ")
 
 ground_truth = load_json(paths["A_DATASET_DIR"]/ground_truth_data)
-
 answers = load_json(paths["A_DATASET_DIR"]/answer_data)
+
+# ✅ Ground Truth는 리스트 그대로
+ground_truth_list = ground_truth
+
+# ✅ SAMI 데이터셋은 dict 구조라면 results만 뽑기
+if isinstance(answers, dict) and "results" in answers:
+    answers_list = answers["results"]
+else:
+    answers_list = answers  # 그냥 리스트인 경우 그대로 사용
 
 results = []
 
 system_prompt = load_prompt(paths["WORK_DIR"] / "similarity_prompt.txt")
 
-for ref_item, ans_item in tqdm(zip(ground_truth, answers), total=len(ground_truth), desc="LLM 기반 문장 유사도 평가 중"):
+for ref_item, ans_item in tqdm(
+        zip(ground_truth_list, answers_list),
+        total=len(ground_truth_list),
+        desc="LLM 기반 문장 유사도 평가 중"
+):
     ref = ref_item.get("answer", "")
     ans = ans_item.get("answer", "")
 
-    messages = [{"role": "system", "content": system_prompt},
-                {"role": "user", "content": ref},
-                {"role": "user", "content": ans}]
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": ref},
+        {"role": "user", "content": ans}
+    ]
 
     completion = LLM.chat.completions.create(
         model="gpt-4o-mini",

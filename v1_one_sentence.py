@@ -24,7 +24,7 @@ for item in tqdm(questions):
 
         response = requests.post(
             "http://localhost:8000/ask",
-            json={"question": question},
+            json={"question": f"{question}\n\n한 문장으로만 답해."},
             timeout=30
         )
         response.raise_for_status()
@@ -50,12 +50,8 @@ for item in tqdm(questions):
 
     time.sleep(0.3)
 
-# 결과 저장 파일명 생성
-result = make_sami_a_dataset_name(dataset)
-
-# 평균 토큰량과 응답속도 계산
+# 평균값 계산
 valid_results = [r for r in results if r["token_amount"] > 0 and r["response_time_sec"] > 0]
-
 if valid_results:
     avg_tokens = sum(r["token_amount"] for r in valid_results) / len(valid_results)
     avg_time = sum(r["response_time_sec"] for r in valid_results) / len(valid_results)
@@ -65,7 +61,10 @@ else:
 print(f"평균 토큰량: {avg_tokens:.2f}")
 print(f"평균 응답속도: {avg_time:.2f} 초")
 
-# JSON 저장
+# 결과 파일명에 v1_one_sentence 추가
+result = "v1_one_sentence" + dataset
+
+# JSON 저장 (평균값 포함)
 save_json(paths["A_DATASET_DIR"]/result, {
     "results": results,
     "average": {
@@ -73,3 +72,4 @@ save_json(paths["A_DATASET_DIR"]/result, {
         "response_time_sec": round(avg_time, 2)
     }
 })
+print(f"저장 완료: {result}")
