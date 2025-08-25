@@ -66,11 +66,8 @@ if valid_results:
 else:
     avg_tokens, avg_time = 0, 0
 
-print(f"평균 토큰량: {avg_tokens:.2f}")
-print(f"평균 응답속도: {avg_time:.2f} 초")
 
-# 결과 파일명에 caching_response_limit 추가
-result = "caching_response_limit_" + make_sami_a_dataset_name(dataset)
+result = "caching_response_limit.json"
 
 # JSON 저장 (평균값 포함)
 save_json(paths["A_DATASET_DIR"]/result, {

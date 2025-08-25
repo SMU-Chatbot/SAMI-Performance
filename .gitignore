@@ -2,3 +2,4 @@
 .DS_Store
 .env
 similarity_prompt.txt
+**/backUp/

@@ -24,7 +24,7 @@ for item in tqdm(questions):
 
         response = requests.post(
             "http://localhost:8000/ask",
-            json={"question": f"{question}\n\n최종 답만 출력해."},
+            json={"question": f"{question}\n\n대학생이 이해할 수 있게 간단히 설명해."},
             timeout=30
         )
         response.raise_for_status()
@@ -58,12 +58,8 @@ if valid_results:
 else:
     avg_tokens, avg_time = 0, 0
 
-print(f"평균 토큰량: {avg_tokens:.2f}")
-print(f"평균 응답속도: {avg_time:.2f} 초")
 
-# 결과 파일명
-result = "v6_final_only_" + dataset
-print(result)
+result = "v4_simple_explain.json"
 
 # JSON 저장 (평균 포함)
 save_json(paths["A_DATASET_DIR"]/result, {
