@@ -22,6 +22,7 @@ else:
     answers_list = answers
 
 results = []
+similarity_scores = []
 
 for ref_item, ans_item in tqdm(
         zip(ground_truth, answers_list),
@@ -40,7 +41,19 @@ for ref_item, ans_item in tqdm(
         "similarity": round(score, 4)
     })
 
-# 결과 파일명 생성
-result = make_sbert_results_name(ground_truth_data)
+    similarity_scores.append(score)
 
-save_json(paths["SBERT_DIR"]/result, results)
+# ✅ 평균 점수 계산 (소수점 둘째 자리까지)
+avg_score = round(sum(similarity_scores) / len(similarity_scores), 2) if similarity_scores else 0.0
+
+# 결과 파일명 생성
+result_filename = make_sbert_results_name(ground_truth_data)
+
+final_output = {
+    "average_similarity": avg_score,
+    "results": results
+}
+
+save_json(paths["SBERT_DIR"]/result_filename, final_output)
+
+print(f"평균 유사도 점수: {avg_score:.2f} (총 {len(results)}개 문항)")

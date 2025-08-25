@@ -52,14 +52,34 @@ for ref_item, ans_item in tqdm(
         messages=messages,
     )
 
-    similarity = completion.choices[0].message.content
+    similarity_text = completion.choices[0].message.content.strip()
+
+    # 숫자로 변환 (예: "85" → 85.0)
+    try:
+        similarity_score = float(similarity_text)
+    except ValueError:
+        similarity_score = None  # 변환 실패 시 None 저장
 
     results.append({
         "reference": ref,
         "answer": ans,
-        "similarity": similarity
+        "similarity": similarity_score
     })
 
-result = ground_truth_data.split("_a")[0] + "_LLM_results.json"
+# ✅ 평균 계산
+valid_scores = [r["similarity"] for r in results if r["similarity"] is not None]
+avg_score = round(sum(valid_scores) / len(valid_scores), 2) if valid_scores else 0.0
 
-save_json(paths["LLM_DIR"]/result, results)
+# ✅ 결과 파일 저장
+result_filename = ground_truth_data.split("_a")[0] + "_LLM_results.json"
+
+final_output = {
+    "average_similarity": avg_score,
+    "results": results
+}
+
+save_json(paths["LLM_DIR"]/result_filename, final_output)
+
+print(f"평균 유사도 점수: {avg_score:.2f} (총 {len(valid_scores)}개 문항)")
+
+
