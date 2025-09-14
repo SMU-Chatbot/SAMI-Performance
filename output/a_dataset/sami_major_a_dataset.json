@@ -1,0 +1,508 @@
+{
+  "results": [
+    {
+      "answer": "컴퓨터과학 전공의 전화번호는 02-2287-5296입니다. 추가적인 정보가 필요하시면 홈페이지를 방문해 주세요: [컴퓨터과학 홈페이지](https://cs.smu.ac.kr/cs/index.do).",
+      "response_time_sec": 1.93,
+      "token_amount": 52
+    },
+    {
+      "answer": "지적재산권 관련 사항은 정확한 정보를 제공하기 위해 대학 내 특정 부서에 문의하시는 것이 좋습니다. 상명대학교의 지적재산권 관련 사무실에 대한 자세한 정보는 아래 링크를 참고해 주세요:\n\n자세한 사항은 아래 링크를 확인해주세요: [상명대학교 공식 웹사이트](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.5,
+      "token_amount": 84
+    },
+    {
+      "answer": "역사콘텐츠 전공의 팩스번호는 02-2287-0058입니다. 추가적인 정보가 필요하시다면 아래 링크를 확인해 주세요: [상명대학교 역사콘텐츠 학과 홈페이지](https://www.smu.ac.kr/history/index.do).",
+      "response_time_sec": 1.81,
+      "token_amount": 58
+    },
+    {
+      "answer": "상명대학교 문헌정보학 전공의 웹사이트는 [여기](https://libinfo.smu.ac.kr/libinfo/index.do)에서 확인하실 수 있습니다. 추가적인 정보가 필요하시다면 해당 웹사이트를 방문해 주세요!",
+      "response_time_sec": 1.95,
+      "token_amount": 52
+    },
+    {
+      "answer": "공간환경학의 전화번호는 02-2287-5047입니다. 추가적인 정보가 필요하시다면 해당 학과의 홈페이지를 방문해 주세요.",
+      "response_time_sec": 1.74,
+      "token_amount": 35
+    },
+    {
+      "answer": "국가안보학의 사무실은 월해관 M209호에 위치해 있습니다. 추가로 궁금한 사항이 있으시면 말씀해 주세요!",
+      "response_time_sec": 2.36,
+      "token_amount": 34
+    },
+    {
+      "answer": "행정학 전공의 팩스 번호는 02-2287-0061입니다. 추가적인 질문이 있으면 언제든지 물어보세요!",
+      "response_time_sec": 1.91,
+      "token_amount": 35
+    },
+    {
+      "answer": "국어교육학과의 페이지는 다음 링크에서 확인하실 수 있습니다: [국어교육학과 홈페이지](https://koredu.smu.ac.kr/koredu/index.do).\n\n더 궁금하신 사항은 언제든지 질문해 주세요!",
+      "response_time_sec": 1.88,
+      "token_amount": 54
+    },
+    {
+      "answer": "가족복지학 전공의 전화번호는 02-2287-5254입니다. 추가적인 정보가 필요하시면 [여기](https://smfamily.smu.ac.kr/smfamily/index.do)를 확인해 주세요.",
+      "response_time_sec": 2.14,
+      "token_amount": 50
+    },
+    {
+      "answer": "영어교육 전공의 학과 사무실은 사범대학관 A101호에 위치해 있습니다. 추가적으로 궁금한 사항이 있으시면 언제든지 질문해 주세요!",
+      "response_time_sec": 1.82,
+      "token_amount": 41
+    },
+    {
+      "answer": "한일문화콘텐츠 전공의 팩스 번호는 02-2287-0072입니다. 더 궁금한 사항은 [한일문화콘텐츠 학과 홈페이지](https://kjc.smu.ac.kr/kjc/index.do)에서 확인해 주세요.",
+      "response_time_sec": 1.98,
+      "token_amount": 57
+    },
+    {
+      "answer": "교육학 전공의 웹사이트는 [여기](https://learning.smu.ac.kr/peda/index.do)를 확인하시면 됩니다. 추가적인 정보가 필요하시다면 언제든지 말씀해 주세요!",
+      "response_time_sec": 2.11,
+      "token_amount": 43
+    },
+    {
+      "answer": "경영학 전공의 전화번호는 02-2287-5206입니다. 추가적인 정보가 필요하다면 아래 링크를 확인해주세요: [경영학 홈페이지](https://sbe.smu.ac.kr/smubiz/index.do)",
+      "response_time_sec": 2.09,
+      "token_amount": 53
+    },
+    {
+      "answer": "경제금융학 사무실은 경영경제대학관 T204호에 위치해 있습니다. 추가적인 정보가 필요하시면 경제금융학과 홈페이지를 방문해 주세요: [경제금융학과 홈페이지](https://sbe.smu.ac.kr/economic/index.do).",
+      "response_time_sec": 2.05,
+      "token_amount": 61
+    },
+    {
+      "answer": "글로벌경영학 전공의 팩스 번호는 02-2287-0059입니다. 추가적으로 궁금한 사항이 있다면 홈페이지를 통해 더 많은 정보를 확인하실 수 있습니다: [글로벌경영학 홈페이지](https://sbe.smu.ac.kr/newmajoritb/index.do).",
+      "response_time_sec": 2.63,
+      "token_amount": 67
+    },
+    {
+      "answer": "융합경영학의 홈페이지는 아래 링크에서 확인하실 수 있습니다: [융합경영학 홈페이지](https://imgmt.smu.ac.kr/cm/index.do).\n\n추가적인 정보가 필요하시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 2.14,
+      "token_amount": 52
+    },
+    {
+      "answer": "수학교육 전공의 전화번호는 02-2287-5123입니다. 추가적인 정보가 필요하시거나 더 궁금한 점이 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.89,
+      "token_amount": 41
+    },
+    {
+      "answer": "휴먼지능정보공학의 사무실은 공학관 G101-2호에 위치하고 있습니다. 추가적인 질문이 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.74,
+      "token_amount": 38
+    },
+    {
+      "answer": "전기공학 전공의 팩스번호는 02-2287-0097입니다. 추가적인 정보가 필요하시면, 학과 홈페이지를 방문하시거나 직접 문의해 보시기 바랍니다.",
+      "response_time_sec": 1.74,
+      "token_amount": 45
+    },
+    {
+      "answer": "게임 페이지에 대한 정보는 제공할 수 없습니다. 학교와 관련된 질문이 아니므로 자세한 사항은 아래 링크를 확인해주세요: [상명대학교 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.36,
+      "token_amount": 47
+    },
+    {
+      "answer": "식품영양학의 전화번호는 02-2287-5129입니다. 추가로 궁금한 사항이 있으시면 문의해 주세요!",
+      "response_time_sec": 1.44,
+      "token_amount": 32
+    },
+    {
+      "answer": "의류학 학과 사무실은 월해관 M307호에 위치해 있습니다. 추가적으로 궁금한 사항이 있으면 언제든지 문의해 주세요!",
+      "response_time_sec": 1.63,
+      "token_amount": 36
+    },
+    {
+      "answer": "스포츠건강관리 전공의 팩스 번호는 02-2287-0075입니다. 추가로 궁금한 점이 있으면 말씀해 주세요!",
+      "response_time_sec": 1.84,
+      "token_amount": 36
+    },
+    {
+      "answer": "무용예술 전공에 대한 정보는 아래 링크에서 확인하실 수 있습니다:\n\n[무용예술 홈페이지](https://dance.smu.ac.kr/dance/index.do)\n\n무용예술 전공에 대한 비문을 아래와 같이 준비해 드리겠습니다:\n\n\"무용예술 전공은 창의적이고 표현적인 무용 기술을 개발하고, 다양한 무용 장르에 대한 이해를 깊이 있게 탐구하는 학문입니다. 이 프로그램은 학생들이 무용의 역사, 이론, 그리고 실기 능력을 통합하여 전통 무용과 현대 무용의 경계를 넘나드는 예술가로 성장할 수 있도록 교육합니다. 학생들은 무대 경험과 함께 기술적 숙련도를 향상시키며, 창작 및 공연 기회를 통해 자신을 표현할 수 있는 다양한 무대를 제공합니다.\"\n\n추가적인 정보가 필요하시면 홈페이지를 방문해 보시기 바랍니다!",
+      "response_time_sec": 3.46,
+      "token_amount": 196
+    },
+    {
+      "answer": "조형예술 전공의 전화번호는 02-2287-5302입니다. 더 궁금한 사항이 있으면 언제든지 물어보세요!",
+      "response_time_sec": 1.76,
+      "token_amount": 36
+    },
+    {
+      "answer": "안녕하세요! 컴퓨터과학 전공의 전화번호는 02-2287-5296입니다. 더 궁금한 사항이 있으시면 말씀해 주세요!",
+      "response_time_sec": 1.74,
+      "token_amount": 35
+    },
+    {
+      "answer": "지적재산권 사무실에 대한 상세 정보는 제가 안내할 수 없습니다. 정확한 위치와 정보를 원하시면 아래 링크를 확인해 주세요: [상명대학교 홈페이지](https://www.smu.ac.kr/kor/index.do).",
+      "response_time_sec": 2.0,
+      "token_amount": 52
+    },
+    {
+      "answer": "역사콘텐츠 전공의 팩스번호는 02-2287-0058입니다. 추가로 궁금한 점이 있으면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.7,
+      "token_amount": 38
+    },
+    {
+      "answer": "문헌정보학 전공의 웹사이트 주소는 [여기](https://libinfo.smu.ac.kr/libinfo/index.do)입니다. 사이트가 느리게 작동할 경우, 다른 브라우저를 사용해보거나 인터넷 연결 상태를 점검해보시기 바랍니다. 도움이 필요하면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.74,
+      "token_amount": 71
+    },
+    {
+      "answer": "공간환경학 전공의 전화번호는 02-2287-5047입니다. 추가적인 정보가 필요하시면 학과 홈페이지를 방문해주시기 바랍니다: [https://space.smu.ac.kr/space/index.do](https://space.smu.ac.kr/space/index.do).",
+      "response_time_sec": 1.86,
+      "token_amount": 62
+    },
+    {
+      "answer": "국가안보학 사무실은 (M)월해관 M209호에 위치해 있습니다. 추가적인 정보가 필요하시면 아래 링크를 확인해주세요: [상명대학교](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 1.92,
+      "token_amount": 53
+    },
+    {
+      "answer": "행정학 전공의 팩스 번호는 02-2287-0061입니다. 더 궁금한 점이 있으면 말씀해 주세요!",
+      "response_time_sec": 1.54,
+      "token_amount": 33
+    },
+    {
+      "answer": "국어교육 전공의 홈페이지는 다음 링크에서 확인할 수 있습니다: [국어교육 홈페이지](https://koredu.smu.ac.kr/koredu/index.do). 필요한 정보를 찾길 바랍니다! 더 궁금한 점이 있다면 언제든지 질문해 주세요!",
+      "response_time_sec": 2.2,
+      "token_amount": 58
+    },
+    {
+      "answer": "가족복지학 전공의 전화번호는 02-2287-5254입니다. 추가적인 정보가 필요하시면 아래 링크를 확인해 주세요. https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 2.1,
+      "token_amount": 46
+    },
+    {
+      "answer": "영어교육 전공의 사무실은 사범대학관 A101호에 위치해 있습니다. 궁금한 점이 더 있으시면 언제든지 질문해 주세요!",
+      "response_time_sec": 1.58,
+      "token_amount": 38
+    },
+    {
+      "answer": "한일문화콘텐츠의 팩스 번호는 02-2287-0072입니다. 추가적인 정보가 필요하시면 학과 홈페이지를 참고해주세요: [한일문화콘텐츠 홈페이지](https://kjc.smu.ac.kr/kjc/index.do)",
+      "response_time_sec": 2.41,
+      "token_amount": 56
+    },
+    {
+      "answer": "교육학 전공의 웹사이트는 [여기](https://learning.smu.ac.kr/peda/index.do)에서 확인하실 수 있습니다. 추가적인 정보가 필요하시다면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.86,
+      "token_amount": 45
+    },
+    {
+      "answer": "경영학 전공의 전화번호는 02-2287-5206입니다. 도움이 더 필요하시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.37,
+      "token_amount": 31
+    },
+    {
+      "answer": "경제금융학 전공의 사무실은 (T)경영경제대학관 T204호에 위치해 있습니다. 추가적인 정보가 필요하시면 아래 링크를 참고해 주세요. [상명대학교 경제금융학 홈페이지](https://sbe.smu.ac.kr/economic/index.do)",
+      "response_time_sec": 2.4,
+      "token_amount": 65
+    },
+    {
+      "answer": "글로벌경영학의 팩스 번호는 02-2287-0059입니다. 다른 질문이나 추가 정보가 필요하시면 말씀해 주세요!",
+      "response_time_sec": 1.74,
+      "token_amount": 34
+    },
+    {
+      "answer": "융합경영학의 홈페이지는 [여기](https://imgmt.smu.ac.kr/cm/index.do)입니다. 추가적인 정보가 필요하다면 해당 페이지를 방문해 주세요!",
+      "response_time_sec": 1.66,
+      "token_amount": 40
+    },
+    {
+      "answer": "수학교육 전공의 전화번호는 02-2287-5123입니다. 도움이 필요하시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.73,
+      "token_amount": 30
+    },
+    {
+      "answer": "휴먼지능정보공학 전공의 사무실은 (G)공학관 G101-2호에 위치해 있습니다. 추가적으로 궁금한 점이 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.63,
+      "token_amount": 46
+    },
+    {
+      "answer": "전기공학 전공의 팩스 번호는 02-2287-0097입니다. 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요: [상명대학교](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.27,
+      "token_amount": 55
+    },
+    {
+      "answer": "게임 전공의 공식 홈페이지는 [여기](https://game.smu.ac.kr/game01/index.do)입니다. 추가적인 정보가 필요하시면 해당 링크를 통해 확인해 주세요!",
+      "response_time_sec": 1.91,
+      "token_amount": 40
+    },
+    {
+      "answer": "식품영양학 전공의 전화번호는 02-2287-5129입니다. 궁금한 점이 더 있으면 언제든지 질문해 주세요!",
+      "response_time_sec": 1.77,
+      "token_amount": 36
+    },
+    {
+      "answer": "의류학 전공의 학과 사무실은 월해관 M307호에 위치해 있습니다. 추가적인 정보가 필요하시면 [여기](https://www.smu.ac.kr/clothing2/index.do)에서 확인해 주세요!",
+      "response_time_sec": 1.95,
+      "token_amount": 52
+    },
+    {
+      "answer": "스포츠건강관리 전공의 팩스 번호는 02-2287-0075입니다. 혹시 다른 문의 사항이 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.6,
+      "token_amount": 38
+    },
+    {
+      "answer": "무용예술 전공의 홈페이지는 다음 링크에서 확인하실 수 있습니다: [무용예술 전공 홈페이지](https://dance.smu.ac.kr/dance/index.do).\n\n웹페이지의 속도 문제는 가끔 서버의 상태나 인터넷 연결에 따라 달라질 수 있습니다. 잠시 후 다시 시도해 보거나 다른 네트워크 환경에서 접속해 보시는 것을 추천드립니다. 추가적인 정보가 필요하면 아래 링크를 확인해 주세요: https://www.smu.ac.kr/kor/index.do.",
+      "response_time_sec": 2.68,
+      "token_amount": 111
+    },
+    {
+      "answer": "조형예술 전공의 전화번호는 02-2287-5302입니다. 도움이 더 필요하시면 말씀해 주세요!",
+      "response_time_sec": 2.18,
+      "token_amount": 29
+    },
+    {
+      "answer": "안녕하세요! 컴퓨터과학 전공에 대한 궁금한 점이 있으신가요? 전화번호 없이 다른 정보를 제공해 드릴 수 있습니다. 필요하신 정보를 말씀해 주세요!",
+      "response_time_sec": 1.74,
+      "token_amount": 41
+    },
+    {
+      "answer": "상명대학교에는 지적재산권 사무실에 대한 정보가 없습니다. 자세한 사항은 아래 링크를 확인해주세요: [상명대학교 공식 웹사이트](https://www.smu.ac.kr/kor/index.do).",
+      "response_time_sec": 1.74,
+      "token_amount": 48
+    },
+    {
+      "answer": "죄송하지만 학교와 관련된 정보를 제외한 다른 질문에 대해서는 답변하기 어렵습니다. 상명대학교의 공식 홈페이지에서 보다 자세한 정보를 확인해 주시기 바랍니다. 아래 링크를 참고해 주세요: [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.38,
+      "token_amount": 65
+    },
+    {
+      "answer": "문헌정보학 전공의 웹사이트는 [여기](https://libinfo.smu.ac.kr/libinfo/index.do)에서 확인하실 수 있습니다. 웹사이트에서 전공에 대한 정보와 학과 소식을 찾아보실 수 있습니다. 추가적인 사항은 학과 사무실에 문의하시면 더욱 자세한 정보를 얻으실 수 있습니다.",
+      "response_time_sec": 1.98,
+      "token_amount": 76
+    },
+    {
+      "answer": "공간환경학에 대한 정보는 아래와 같습니다:\n\n- 학과 사무실: (N)자하관 N312호\n- 홈페이지: [공간환경학](https://space.smu.ac.kr/space/index.do)\n\n더 궁금한 사항이 있으시면 홈페이지를 방문하시거나, 추가적인 정보가 필요하시면 아래 링크를 확인해주세요: https://www.smu.ac.kr/kor/index.do.",
+      "response_time_sec": 2.41,
+      "token_amount": 89
+    },
+    {
+      "answer": "국가안보학 전공의 사무실은 월해관 M209호에 위치하고 있습니다. 추가적인 문의가 필요하시면 전화번호 02-2287-5368로 연락해 주세요.",
+      "response_time_sec": 1.61,
+      "token_amount": 45
+    },
+    {
+      "answer": "안녕하세요! 행정학 전공의 연락처 정보입니다:\n\n- 전화번호: 02-2287-5399, 02-2287-5187\n- 학과 사무실: (N)자하관 N312호\n- 홈페이지: [행정학 전공 홈페이지](https://public.smu.ac.kr/public/index.do)\n\n팩스는 필요 없다면 무시하셔도 됩니다. 추가적으로 궁금하신 사항이 있다면 말씀해 주세요!",
+      "response_time_sec": 2.4,
+      "token_amount": 102
+    },
+    {
+      "answer": "국어교육 전공에 대한 정보는 다음과 같습니다:\n\n- **전화번호**: 02-2287-5090\n- **팩스번호**: 02-2287-0065\n- **학과 사무실 위치**: (A)사범대학관 A101호\n- **홈페이지**: [국어교육 전공 홈페이지](https://koredu.smu.ac.kr/koredu/index.do)\n\n더욱 자세한 사항은 홈페이지를 방문해 주시기 바랍니다. 추가적인 정보가 필요하시다면 해당 홈페이지를 통해 확인하실 수 있습니다.",
+      "response_time_sec": 3.59,
+      "token_amount": 127
+    },
+    {
+      "answer": "가족복지학과의 전화번호는 02-2287-5254입니다. 추가적인 정보가 필요하시면 학과 홈페이지를 방문하시거나, 학과 사무실에 직접 문의해 주시기 바랍니다. 자세한 사항은 아래 링크를 확인해주세요: https://smfamily.smu.ac.kr/smfamily/index.do.",
+      "response_time_sec": 1.89,
+      "token_amount": 73
+    },
+    {
+      "answer": "영어교육 관련 사무실에 대한 구체적인 정보는 제공할 수 없습니다. 자세한 사항은 상명대학교 공식 웹사이트를 확인해주시면 좋겠습니다. 아래 링크를 통해 필요하신 정보를 얻으실 수 있습니다: [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.29,
+      "token_amount": 70
+    },
+    {
+      "answer": "한일문화콘텐츠 전공에 대한 정보를 아래와 같이 안내해 드립니다.\n\n- 전화번호: 02-2287-5116\n- 학과 사무실: (N)자하관 N312호\n- 홈페이지: [한일문화콘텐츠 전공 홈페이지](https://kjc.smu.ac.kr/kjc/index.do)\n\n팩스 번호는 필요하지 않으시더라도, 기타 문의사항에 대해서는 전화나 홈페이지를 통해 확인해 주시기 바랍니다. 추가적인 정보가 필요하시면 방문해 주시기 바랍니다!",
+      "response_time_sec": 2.99,
+      "token_amount": 118
+    },
+    {
+      "answer": "교육학 전공의 웹사이트는 다음과 같습니다: [상명대학교 교육학과 홈페이지](https://learning.smu.ac.kr/peda/index.do). \n\n이곳에서는 교육학과 관련된 정보와 자료를 확인할 수 있습니다. 추가적인 도움이 필요하면 언제든지 말씀해주세요!",
+      "response_time_sec": 1.95,
+      "token_amount": 62
+    },
+    {
+      "answer": "경영학 전공에 대한 연락처가 필요하지 않으셨군요! 전공에 대해 궁금한 점이나 다른 문의사항이 있으시면 언제든지 말씀해 주세요. 도움이 되는 정보를 제공해드리겠습니다.",
+      "response_time_sec": 1.77,
+      "token_amount": 49
+    },
+    {
+      "answer": "경제금융학 전공의 사무실은 경영경제대학관 T204호에 위치해 있습니다. 해당 전공에 대한 궁금한 점이나 문의 사항은 전화(02-2287-5258, 02-2287-5052)로 연락하시거나 [홈페이지](https://sbe.smu.ac.kr/economic/index.do)를 방문하시면 됩니다. 추가적인 도움이 필요하시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 2.64,
+      "token_amount": 96
+    },
+    {
+      "answer": "글로벌경영학 전공의 팩스 번호는 02-2287-0059입니다. 팩스를 사용하지 않으실 경우, 관련 문의는 전화(02-2287-5051, 02-2287-5055)나 홈페이지를 통해 진행하실 수 있습니다. 홈페이지는 [여기](https://sbe.smu.ac.kr/newmajoritb/index.do)에서 확인할 수 있습니다. 추가적인 정보가 필요하시다면 언제든지 말씀해 주세요!",
+      "response_time_sec": 2.56,
+      "token_amount": 106
+    },
+    {
+      "answer": "융합경영학은 다양한 경영 분야를 통합하여 다각적인 시각에서 문제를 해결하는 능력을 키우는 전공입니다. 이 전공은 경영학의 기초 지식을 바탕으로 다양한 산업과 기술의 융합을 통해 혁신적인 경영 전략을 도출할 수 있는 인재를 양성하는 것을 목표로 합니다.\n\n더 자세한 정보는 융합경영학 전공의 공식 홈페이지인 [여기](https://imgmt.smu.ac.kr/cm/index.do)에서 확인하실 수 있습니다. 혹시 더 궁금한 점이 있으시면 말씀해 주세요!",
+      "response_time_sec": 2.67,
+      "token_amount": 135
+    },
+    {
+      "answer": "수학교육 전공에 대한 문의가 필요하시면, 학과 사무실에 직접 연락하시는 것이 좋습니다. 전공에 대한 더 자세한 정보는 공식 홈페이지에서도 확인하실 수 있습니다. 수학교육 전공에 대한 정보는 다음과 같습니다:\n\n- 전화번호: 02-2287-5123\n- 학과 사무실: (A)사범대학관 A101호\n- 홈페이지: [수학교육 전공 홈페이지](https://mathed.smu.ac.kr/mathedu/index.do)\n\n추가적인 정보가 필요하시다면 공식 홈페이지를 참고해주시기 바랍니다.",
+      "response_time_sec": 2.96,
+      "token_amount": 132
+    },
+    {
+      "answer": "휴먼지능정보공학 전공의 학과 사무실은 (G)공학관 G101-2호에 위치해 있습니다. 추가적으로 더 궁금한 사항이 있으면 언제든지 질문해 주세요!",
+      "response_time_sec": 1.64,
+      "token_amount": 49
+    },
+    {
+      "answer": "전기공학의 팩스 번호는 02-2287-0097입니다. 추가적으로 궁금하신 사항이 있다면 언제든지 문의해 주세요!",
+      "response_time_sec": 1.67,
+      "token_amount": 37
+    },
+    {
+      "answer": "죄송하지만, 게임 페이지에 대한 정보는 제공할 수 없습니다. 상명대학교와 관련된 질문이 있으면 언제든지 도와드리겠습니다. 추가적인 정보가 필요하시면 아래 링크를 확인해주세요: [상명대학교 홈페이지](https://www.smu.ac.kr/kor/index.do).",
+      "response_time_sec": 1.86,
+      "token_amount": 65
+    },
+    {
+      "answer": "식품영양학과에 대한 정보는 다음과 같습니다:\n\n- 학과 사무실: (M)월해관 N307호\n- 홈페이지: [식품영양학과 홈페이지](https://food.smu.ac.kr/foodnutrition/index.do)\n\n추가적인 정보가 필요하시다면 홈페이지를 확인해주시기 바랍니다.",
+      "response_time_sec": 2.01,
+      "token_amount": 72
+    },
+    {
+      "answer": "의류학 전공의 사무실은 월해관 M307호에 위치해 있습니다. 추가적으로 궁금한 사항이 있으시면 아래 링크를 참고해 주세요: https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 1.58,
+      "token_amount": 48
+    },
+    {
+      "answer": "스포츠건강관리 전공의 팩스 번호는 02-2287-0075입니다. 추가적인 정보가 필요하시다면 학과 사무실은 (F)체육관 F112호에 있으며, 홈페이지는 [여기](https://sports.smu.ac.kr/smpe/index.do)에서 확인하실 수 있습니다. 다른 궁금한 사항이 있으시면 언제든지 질문해 주세요!",
+      "response_time_sec": 2.33,
+      "token_amount": 89
+    },
+    {
+      "answer": "저는 상명대학교에 대한 정보만 제공할 수 있습니다. 무용예술 전공에 대한 자세한 정보는 아래 링크에서 확인해 주시면 감사하겠습니다. \n\n[상명대학교 무용예술 전공 홈페이지](https://dance.smu.ac.kr/dance/index.do)",
+      "response_time_sec": 2.19,
+      "token_amount": 62
+    },
+    {
+      "answer": "조형예술 전공의 전화번호는 02-2287-5302입니다. 추가적으로 궁금한 사항이 있다면 학과 홈페이지를 방문해 보시기 바랍니다: [조형예술 홈페이지](https://finearts.smu.ac.kr/finearts/index.do).",
+      "response_time_sec": 1.9,
+      "token_amount": 61
+    },
+    {
+      "answer": "죄송하지만 학교와 관련된 질문이 아니면 답변하기 어렵습니다. 학교에 대한 질문이 있으시면 언제든지 물어보세요!",
+      "response_time_sec": 1.52,
+      "token_amount": 32
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문 외에는 답변하기 어려움이 있습니다. 추가적인 정보가 필요하시면 아래 링크를 확인해 주세요: https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 2.27,
+      "token_amount": 44
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문이 아니므로 답변하기 어렵습니다. 학교에 대한 정보가 필요하시면 말씀해 주세요!",
+      "response_time_sec": 1.63,
+      "token_amount": 30
+    },
+    {
+      "answer": "죄송하지만, 상명대학교와 관련된 질문이 아닌 경우에는 답변하기 어렵습니다. 학교와 관련된 문의가 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.56,
+      "token_amount": 36
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문이 아닌 주식 투자에 대한 질문에는 답변해 드릴 수 없습니다. 학교에 대한 궁금한 점이 있으시면 언제든지 질문해 주세요! 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요 https://www.smu.ac.kr/kor/index.do.",
+      "response_time_sec": 1.74,
+      "token_amount": 70
+    },
+    {
+      "answer": "저는 상명대학교와 관련된 정보만 안내할 수 있어요. 게임에 대한 질문은 답변하기 어렵습니다. 궁금한 사항이 있으면 상명대학교에 관한 질문해 주세요!",
+      "response_time_sec": 1.7,
+      "token_amount": 43
+    },
+    {
+      "answer": "죄송하지만, 운동 방법과 관련된 질문에는 답변하기 어려워요. 상명대학교에 관련된 질문이 있으시면 언제든지 도와드리겠습니다. 추가적인 정보가 필요한 경우 아래 링크를 확인해주세요: https://www.smu.ac.kr/kor/index.do.",
+      "response_time_sec": 1.68,
+      "token_amount": 61
+    },
+    {
+      "answer": "죄송합니다. 애완동물 관련 정보에 대해서는 답변하기 어렵습니다. 학교와 관련된 질문이 있으시면 언제든지 말씀해 주세요.",
+      "response_time_sec": 1.54,
+      "token_amount": 34
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문이 아닌 경우에는 답변하기 어렵습니다. 상명대학교와 관련된 정보나 질문이 있다면 언제든지 문의해 주세요!",
+      "response_time_sec": 1.64,
+      "token_amount": 38
+    },
+    {
+      "answer": "학교와 관련된 질문에 대해서만 답변할 수 있습니다. 서울에서 가볼 만한 곳에 대한 정보는 제공할 수 없으니 양해 부탁드립니다. 필요하신 다른 정보가 있다면 상명대학교에 관한 질문을 해주시면 기쁘게 답변해드리겠습니다!",
+      "response_time_sec": 2.47,
+      "token_amount": 64
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문 이외의 정보에 대해서는 답변할 수 없습니다. 축구 경기 결과에 대한 정보는 제공할 수 없으니, 다른 질문이 있으시면 물어보세요!",
+      "response_time_sec": 1.71,
+      "token_amount": 47
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문에 대해서만 답변할 수 있습니다. 코딩 배움에 대한 정보는 상명대학교의 컴퓨터과학과나 관련 전공의 홈페이지를 방문하시거나, 학과 사무실에 문의해보시는 것을 권장드립니다. \n\n자세한 사항은 아래 링크를 확인해주세요: [상명대학교](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.28,
+      "token_amount": 90
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문 외에는 답변하기 어렵습니다. 커피 맛있게 만드는 방법에 대한 정보는 제공할 수 없습니다. 학교와 관련된 질문이 있으시면 도와드릴 수 있습니다!",
+      "response_time_sec": 1.74,
+      "token_amount": 48
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문 외에는 답변하기 어렵습니다. 다이어트 식단에 대한 정보는 다른 채널을 통해 찾아보시기를 권장합니다. 추가적인 정보가 필요하시면 아래 링크를 확인해주세요: [상명대학교 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.05,
+      "token_amount": 70
+    },
+    {
+      "answer": "학교와 관련된 질문이 아니므로 답변하기 어렵습니다. 상명대학교와 관련된 질문이 있다면 언제든지 물어보세요!",
+      "response_time_sec": 1.95,
+      "token_amount": 32
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문에 대해서만 답변할 수 있습니다. 패션 스타일에 대한 질문은 안내해 드릴 수 없습니다. 궁금한 학교 관련 사항이 있다면 언제든지 질문해 주세요! 추가적인 정보가 필요한 경우 자세한 사항은 아래 링크를 확인해주세요: https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 2.13,
+      "token_amount": 75
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문이 아니어서 답변하기 어렵습니다. 학교에 대한 정보가 필요하시다면 다른 질문을 해주시기 바랍니다.",
+      "response_time_sec": 1.66,
+      "token_amount": 34
+    },
+    {
+      "answer": "죄송하지만, 해외 여행 준비물에 대한 질문은 답변하기 어려워요. 학교와 관련된 질문이 있다면 기꺼이 도와드리겠습니다! 추가적인 정보가 필요하시다면 아래 링크를 확인해주세요. https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 1.89,
+      "token_amount": 60
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문에 대해서만 답변할 수 있습니다. 영어 공부에 대한 구체적인 방법은 안내해 드리기 어렵습니다. 학생생활과 관련하여 더 필요한 정보가 있으시면, 상명대학교에 관한 질문을 해주시면 감사하겠습니다. 추가적인 정보가 필요하신 경우 아래 링크를 확인해주세요: https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 2.11,
+      "token_amount": 86
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 질문에 대해서만 답변할 수 있습니다. 상명대학교 관련 정보가 필요하시다면 언제든지 질문해 주세요! 추가적인 정보는 아래 링크를 확인해주세요: [상명대학교 공식 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 2.25,
+      "token_amount": 63
+    },
+    {
+      "answer": "상명대학교와 관련된 문제 외의 사항에 대해서는 답변을 드릴 수 없습니다. 컴퓨터 고장과 같은 IT 관련 문제는 학교의 IT 센터나 기술 지원팀에 문의하시는 것이 좋습니다. 학교의 홈페이지 또는 관련 부서를 통해 추가적인 정보를 확인해 보시기 바랍니다. 필요하다면 아래 링크를 통해 더 자세한 정보를 찾아보실 수 있습니다: https://www.smu.ac.kr/kor/index.do",
+      "response_time_sec": 3.02,
+      "token_amount": 94
+    },
+    {
+      "answer": "죄송하지만, 학교와 관련된 정보 외에는 답변하기 어려워요. 상명대학교에 관한 질문이 있으시면 언제든지 말씀해 주세요!",
+      "response_time_sec": 1.72,
+      "token_amount": 34
+    },
+    {
+      "answer": "죄송하지만 학교와 관련된 질문이 아니어서 답변이 어렵습니다. 추가적인 정보가 필요한 경우 아래 링크를 확인해 주세요: [상명대학교 홈페이지](https://www.smu.ac.kr/kor/index.do)",
+      "response_time_sec": 1.69,
+      "token_amount": 48
+    },
+    {
+      "answer": "죄송하지만 학교와 관련된 질문이 아닌 경우에는 답변하기 어려워요. 상명대학교에 관련된 질문이 있다면 언제든지 물어봐 주세요!",
+      "response_time_sec": 1.55,
+      "token_amount": 37
+    },
+    {
+      "answer": "죄송합니다. 학교와 관련된 질문에 대해서만 답변할 수 있습니다. 상명대학교에 관한 정보가 필요하시면 언제든지 질문해 주세요!",
+      "response_time_sec": 1.49,
+      "token_amount": 35
+    }
+  ],
+  "average": {
+    "token_amount": 57.51,
+    "response_time_sec": 2.0
+  }
+}
