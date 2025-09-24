@@ -1,7 +1,6 @@
 import json
 import matplotlib.pyplot as plt
 from config.path import get_project_paths
-from pathlib import Path
 import numpy as np
 
 paths = get_project_paths()

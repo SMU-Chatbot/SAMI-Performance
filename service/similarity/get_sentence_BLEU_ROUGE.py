@@ -1,6 +1,5 @@
 from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from rouge_score import rouge_scorer
-import json
 from config.path import get_project_paths
 from tqdm import tqdm
 from utils.io_utils import save_json, load_json

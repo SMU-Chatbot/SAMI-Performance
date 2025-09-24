@@ -1,8 +1,6 @@
 import json
-from pathlib import Path
 import matplotlib.pyplot as plt
 from utils.io_utils import load_json
-from utils.input_utils import get_filename
 from config.path import get_project_paths
 
 paths = get_project_paths()
