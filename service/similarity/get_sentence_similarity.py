@@ -1,4 +1,3 @@
-import json
 from sentence_transformers import SentenceTransformer, util
 from config.path import get_project_paths
 from tqdm import tqdm

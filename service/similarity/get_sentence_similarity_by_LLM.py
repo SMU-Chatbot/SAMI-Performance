@@ -1,6 +1,5 @@
 import os
 from openai import OpenAI
-import json
 from dotenv import load_dotenv
 from tqdm import tqdm
 from config.path import get_project_paths
